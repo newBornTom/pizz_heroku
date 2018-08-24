@@ -126,8 +126,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
 # написано с потолка
-MEDIA_URL = '/static/media/' # путь куда картинки сохранять для вывода изображен добавленых в админке
-MEDIA_ROOT = 'E:/Django_projects/pizza'
+MEDIA_URL = ' os.path.join(BASE_DIR, 'media') # путь куда картинки сохранять для вывода изображен добавленых в админке
+MEDIA_ROOT = '/media/'
 
 #------форма обратной связи(относительный путь для шаблонов)
 PROJECT_ROOT = os.path.realpath(os.path.dirname(__file__))
