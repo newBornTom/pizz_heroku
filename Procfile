@@ -1,1 +1,1 @@
-web: gunicorn pizz_heroku.wsgi --log-file -
+web: gunicorn pizza.wsgi --log-file -
